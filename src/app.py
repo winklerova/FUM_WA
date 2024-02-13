@@ -86,9 +86,7 @@ def update_graph(selected_geography):
 
 # Run local server
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=True, port=8051)
     #
     # if __name__ == '__main__':
     #     app.run(debug=True)
-
-#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
